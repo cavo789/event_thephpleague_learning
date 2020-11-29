@@ -32,13 +32,13 @@ class SubscribeNewsLetter implements Listener
     /**
      * Handle the event.
      *
-     * @param object $event The event
+     * @param object $eventNewCustomer The NewCustomer event
      *
      * @return void
      */
-    public function __invoke(object $event): void
+    public function __invoke(object $eventNewCustomer): void
     {
-        $this->customer = $event->getCustomer();
+        $this->customer = $eventNewCustomer->getCustomer();
 
         \printf(
             "    == SubscribeNewsLetter == Add %s to our newsletter (%s) \n",

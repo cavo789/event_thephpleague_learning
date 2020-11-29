@@ -32,13 +32,13 @@ class AddToBirthDayPlanning implements Listener
     /**
      * Handle the event.
      *
-     * @param object $event The event
+     * @param object $eventNewCustomer The NewCustomer event
      *
      * @return void
      */
-    public function __invoke(object $event): void
+    public function __invoke(object $eventNewCustomer): void
     {
-        $this->customer = $event->getCustomer();
+        $this->customer = $eventNewCustomer->getCustomer();
 
         \printf(
             "    == AddToBirthDayPlanning == Add %s to our Happy Birthday planning \n",
