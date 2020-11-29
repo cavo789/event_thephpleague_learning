@@ -1,0 +1,27 @@
+{
+    "name": "christophe/events",
+    "description": "Testing event.thephpleague.com package",
+    "type": "project",
+    "require": {
+        "league/event": "^3.0",
+        "rector/rector": "^0.8.56"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Avonture",
+            "email": "cavo789@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Avonture\\Classes\\": "/src/Classes/",
+            "Avonture\\Events\\": "/src/Events/",
+            "Avonture\\Listeners\\": "/src/Listeners/",
+            "Avonture\\Listeners\\NewCustomer\\": "/src/Listeners/NewCustomer/",
+            "Avonture\\": [
+                "src/"
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+parameters:
+    bootstrapFiles:
+        - %currentWorkingDirectory%/vendor/autoload.php
+    excludes_analyse:
+        - %currentWorkingDirectory%/.phan/*
+        - %currentWorkingDirectory%/.git/*
+        - %currentWorkingDirectory%/.config/*
+        - %currentWorkingDirectory%/.vscode/*
+        - %currentWorkingDirectory%/tests/*
+        - %currentWorkingDirectory%/vendor/*
+    ignoreErrors:
+        - '#Call to an undefined method object::getCustomer\(\)\.*#'

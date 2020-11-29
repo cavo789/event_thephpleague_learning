@@ -1,0 +1,4 @@
+{
+    "php-cs-fixer.executablePathWindows": "C:\\Users\\Christophe\\AppData\\Roaming\\composer\\vendor\\bin\\php-cs-fixer.bat",
+    "php-cs-fixer.config": " C:\\Christophe\\Repository\\git_hooks\\hooks\\config\\php-cs-fixer.php"
+}
