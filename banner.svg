@@ -83,7 +83,7 @@
                 }
             </style>
             <div class="container">
-                <h1>League\Event - How to use?</h1>
+                <h1>Using League\Event</h1>
                 <p>Sample use case, creating new customer, fire NewCustomer event listeners.</p>
             </div>
         </div>
