@@ -3,7 +3,9 @@
     "description": "Testing event.thephpleague.com package",
     "type": "project",
     "require": {
-        "league/event": "^3.0",
+        "league/event": "^3.0"
+    },
+    "require-dev": {
         "rector/rector": "^0.8.56"
     },
     "license": "MIT",
